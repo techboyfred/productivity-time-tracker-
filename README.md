@@ -14,32 +14,32 @@ C++ console application for tracking study/work time with daily, weekly, and mon
 - **Architecture**: Object-oriented design
 
 ## Project Structure
-TimeTracker/
-├── docs/           
-│   ├── design.pdf
-│   └── changeLog.md
-├── src/
-│   ├── build.bat
-│   ├── utility.cpp
-│   ├── activity.cpp
-│   ├── timeSession.cpp
-│   ├── fileManager.cpp
-│   ├── reportGenerator.cpp
-│   ├── timeTracker.cpp
-│   └── main.cpp
-│  
-├── debug/
-│   ├── activityDebug.cpp
-│   ├── timeSessionDebug.cpp
-│   ├── fileManagerDebug.cpp
-│   ├── reportGenerator.cpp
-│   ├── timeTracker.cpp
-│   └── main.cpp
-├── data/             # Data storage
-│   └── sessions.txt
-└── bin/
-   └── main.exe
-```
+-TimeTracker/
+-├── docs/           
+-│   ├── design.pdf
+-│   └── changeLog.md
+-├── src/
+-│   ├── build.bat
+-│   ├── utility.cpp
+-│   ├── activity.cpp
+-│   ├── timeSession.cpp
+-│   ├── fileManager.cpp
+-│   ├── reportGenerator.cpp
+-│   ├── timeTracker.cpp
+-│   └── main.cpp
+-│  
+-├── debug/
+-│   ├── activityDebug.cpp
+-│   ├── timeSessionDebug.cpp
+-│   ├── fileManagerDebug.cpp
+-│   ├── reportGenerator.cpp
+-│   ├── timeTracker.cpp
+-│   └── main.cpp
+-├── data/             # Data storage
+-│   └── sessions.txt
+-└── bin/
+-   └── main.exe
+-```
 
 ## Getting Started
 ### Prerequisites
