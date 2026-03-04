@@ -14,54 +14,49 @@ C++ console application for tracking study/work time with daily, weekly, and mon
 - **Architecture**: Object-oriented design
 
 ## Project Structure
--TimeTracker/
--├── docs/           
--│   ├── design.pdf
--│   └── changeLog.md
--├── src/
--│   ├── build.bat
--│   ├── utility.cpp
--│   ├── activity.cpp
--│   ├── timeSession.cpp
--│   ├── fileManager.cpp
--│   ├── reportGenerator.cpp
--│   ├── timeTracker.cpp
--│   └── main.cpp
--│  
--├── debug/
--│   ├── activityDebug.cpp
--│   ├── timeSessionDebug.cpp
--│   ├── fileManagerDebug.cpp
--│   ├── reportGenerator.cpp
--│   ├── timeTracker.cpp
--│   └── main.cpp
--├── data/             # Data storage
--│   └── sessions.txt
--└── bin/
--   └── main.exe
--```
+```
+TimeTracker/
+├── docs/
+│   ├── build.bat
+│   ├── design.pdf
+│   └── changeLog.md
+├── src/
+│   ├── consoleEnhancer.cpp
+│   ├── utility.cpp
+│   ├── activity.cpp
+│   ├── timeSession.cpp
+│   ├── fileManager.cpp
+│   ├── reportGenerator.cpp
+│   ├── timeTracker.cpp
+│   └── main.cpp
+├── data/               # Data storage
+│   └── sessions.txt
+└── bin/
+    └── main.exe
+```
 
 ## Getting Started
 ### Prerequisites
 - C++ compiler with C++20 support (GCC 11+)
-- Windows/Linux/Mac OS
+- Windows
 
 ### Installation
 
 ## Main Functionality
 1. Start Tracking: Select an activity and start the timer
 2. Stop Tracking: Stop the current session (automatically saved)
-3. View Reports: Generate daily, weekly, or monthly reports
-4. View All Activities: See cumulative time for all tracked activities
+3. Show current session: Show name of activity currently in session, along with the elapsed time
+4. Pause/Resume Session: A single button to either pause or resume the session
+5. Add Past Session: Add session to data file by providing the date, start time and end time
+6. View Reports: Generate daily, weekly, and monthly reports
+7. View All Activities: See cumulative time for all tracked activities
 
 ## Future Enhancements
 - [ ] GUI implementation with Qt
-- [ ] Web-based interface
 - [ ] Custom activity creation
 - [ ] Daily goals and progress tracking
 - [ ] Export to CSV/Excel
-- [ ] Pause/resume functionality
-- [ ] Visual charts and graphs
+- [ ] Exception handling class
 
 ## Author
 - **Freddy Senamela**
@@ -79,3 +74,9 @@ This project is open source and available under the MIT License.
 - Special thanks to Dr Sithungu who lectured me in Computer Science 1
 
 ## Screenshots
+<img width="767" height="1082" alt="1" src="https://github.com/user-attachments/assets/b0c3f668-28b9-468a-9d98-3407267664c0" />
+<img width="795" height="751" alt="2" src="https://github.com/user-attachments/assets/0007f693-fc68-41fe-991a-2c312b8f8b1e" />
+<img width="740" height="726" alt="3" src="https://github.com/user-attachments/assets/339b88ba-fc91-4fc2-8eaf-ada7fafa3c05" />
+
+
+
