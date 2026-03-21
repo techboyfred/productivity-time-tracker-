@@ -22,6 +22,7 @@ ProductivityTracker/
 ├── CMakeLists.txt
 ├── README.md
 ├── docs/
+│   ├── changeLog.md
 │   └── design.pdf
 ├── backend/
 │   ├── activity.h / activity.cpp
