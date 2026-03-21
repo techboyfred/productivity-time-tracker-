@@ -1,46 +1,51 @@
-# productivity-time-tracker-
-C++ console application for tracking study/work time with daily, weekly, and monthly reports
+# Productivity Time Tracker — GUI
+
+A desktop productivity and time tracking application built with Qt6 and C++20.
 
 ## Features
-- **Activity Tracking**: Track time spent on multiple subjects/activities
-- **Automatic Timing**: Start/stop sessions with precise timestamps
-- **Comprehensive Reports**: Daily, weekly, and monthly summaries
-- **Data Persistence**: All sessions saved automatically
-- **Activity Statistics**: View total time spent on each activity
+- Track time spent on multiple subjects/activities
+- Start, stop, pause and resume sessions
+- Add past sessions manually
+- Daily, weekly and monthly reports
+- All-time activity breakdown
+- Automatic data persistence
 
-## Technologies used
-- **Language**: C++ (C++20 modules)
-- **Data Storage**: File-based persistence
-- **Architecture**: Object-oriented design
+## Technologies
+- **Language**: C++20
+- **GUI Framework**: Qt6 Widgets
+- **Build System**: CMake
+- **Architecture**: Backend/Frontend separation
 
 ## Project Structure
-```
-TimeTracker/
+ProductivityTracker/
+├── CMakeLists.txt
 ├── docs/
-│   ├── build.bat
-│   ├── design.pdf
-│   └── changeLog.md
-├── src/
-│   ├── consoleEnhancer.cpp
-│   ├── utility.cpp
-│   ├── activity.cpp
-│   ├── timeSession.cpp
-│   ├── fileManager.cpp
-│   ├── reportGenerator.cpp
-│   ├── timeTracker.cpp
-│   └── main.cpp
-├── data/               # Data storage
+│   └── design.pdf
+├── backend/
+│   ├── activity.h / activity.cpp
+│   ├── timeSession.h / timeSession.cpp
+│   ├── timeTracker.h / timeTracker.cpp
+│   ├── reportGenerator.h / reportGenerator.cpp
+│   ├── fileManager.h / fileManager.cpp
+│   └── utility.h / utility.cpp
+├── data/
 │   └── sessions.txt
-└── bin/
-    └── main.exe
-```
+└── gui/
+    ├── main.cpp
+    ├── mainwindow.h
+    ├── mainwindow.cpp
+    └── mainwindow.ui
 
-## Getting Started
-### Prerequisites
-- C++ compiler with C++20 support (GCC 11+)
-- Windows
+## Prerequisites
+- Qt 6.x with MinGW
+- CMake 3.16+
+- C++20 compatible compiler
 
-### Installation
+## Building
+1. Open CMakeLists.txt in Qt Creator
+2. Configure the project with Desktop Qt 6 MinGW kit
+3. Build → Build All (Ctrl+B)
+4. Run (Ctrl+R)
 
 ## Main Functionality
 1. Start Tracking: Select an activity and start the timer
@@ -52,16 +57,15 @@ TimeTracker/
 7. View All Activities: See cumulative time for all tracked activities
 
 ## Future Enhancements
-- [ ] GUI implementation with Qt
-- [ ] Custom activity creation
+- [ ] Profile tab that will let user store their unique information
 - [ ] Daily goals and progress tracking
 - [ ] Export to CSV/Excel
 - [ ] Exception handling class
+- [ ] Montly report change in structure
 
 ## Author
 - **Freddy Senamela**
 - University of Johannesburg
-- Second Year
 - freddymailula@gmail.com
 - www.linkedin.com/in/freddy-senamela-0b0417190
 
@@ -69,14 +73,9 @@ TimeTracker/
 This project is open source and available under the MIT License.
 
 ## Acknowledgments
-- [University of Johannesburg] Academy of Computer Science and Software Engineering
-- Module: Introduction to Data Structures (Computer Science 1B)
-- Special thanks to Dr Sithungu who lectured me in Computer Science 1
 
 ## Screenshots
-<img width="767" height="1082" alt="1" src="https://github.com/user-attachments/assets/b0c3f668-28b9-468a-9d98-3407267664c0" />
-<img width="795" height="751" alt="2" src="https://github.com/user-attachments/assets/0007f693-fc68-41fe-991a-2c312b8f8b1e" />
-<img width="740" height="726" alt="3" src="https://github.com/user-attachments/assets/339b88ba-fc91-4fc2-8eaf-ada7fafa3c05" />
+
 
 
 
