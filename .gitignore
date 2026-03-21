@@ -17,6 +17,14 @@
 /data.*txt
 !data/test_sessions.txt
 
+# build folder
+build/
+*.exe
+*.o
+*.obj
+*.user
+.qtc_clangd/
+
 #IDE files
 .vs/
 .vscode/
@@ -33,3 +41,4 @@ Thumbs.db
 
 # Executables
 *.exe
+
