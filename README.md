@@ -17,8 +17,10 @@ A desktop productivity and time tracking application built with Qt6 and C++20.
 - **Architecture**: Backend/Frontend separation
 
 ## Project Structure
+```
 ProductivityTracker/
 ├── CMakeLists.txt
+├── README.md
 ├── docs/
 │   └── design.pdf
 ├── backend/
@@ -35,6 +37,7 @@ ProductivityTracker/
     ├── mainwindow.h
     ├── mainwindow.cpp
     └── mainwindow.ui
+```
 
 ## Prerequisites
 - Qt 6.x with MinGW
