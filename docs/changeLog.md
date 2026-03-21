@@ -1,5 +1,18 @@
 # Time Tracker - Change Log
 
+## [2.0.0] - 2026-03-21
+### Added GUI with QT
+- Four screens: Dashboard, Add Past Session, Reports & Activities
+- Dashboard: Start, Stop and Pause/Resume selected activity
+- Add Past Session: Add session by providing activity name, date and the starting and end time
+  
+
+### Changed
+- removed c++20 modules from backend files and replaced them with traditional headers
+- removed consoleEnhacer and all console related methods
+- changed main.cpp to accomodate the new interface
+
+
 ## [1.3.1] - 2026-02-02
 
 ### Fixed
